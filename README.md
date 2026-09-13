@@ -27,13 +27,14 @@
 
 ---
 
-## 🧭 Live Web Deployments
+## 🌐 Public Live Links
 
-| Resource | Direct URL | Format | Description |
-| :--- | :--- | :---: | :--- |
-| **Interactive Portfolio** | [**mikhailemad999.github.io/Resume/**](https://mikhailemad999.github.io/Resume/) | Web | Full engineering portfolio with telemetry, interactive filtering, and 35+ showcase projects |
-| **Official ATS Resume** | [**mikhailemad999.github.io/Resume/resume.html**](https://mikhailemad999.github.io/Resume/resume.html) | HTML | Single-page ATS-optimized resume with verified clickable links and print toolbar |
-| **Official Resume (PDF)** | [**mikhailemad999.github.io/Resume/Mikhail_Emad_Resume.pdf**](https://mikhailemad999.github.io/Resume/Mikhail_Emad_Resume.pdf) | PDF | Executive 1-page A4 PDF generated with Playwright (11 active clickable hyperlinks) |
+| Destination | Public Live URL | Description |
+| :--- | :--- | :--- |
+| **Online Resume (Web ATS)** | [https://mikhailemad999.github.io/Resume/resume.html](https://mikhailemad999.github.io/Resume/resume.html) | Interactive, ATS-friendly resume with print & download toolbar |
+| **Direct PDF Resume** | [https://mikhailemad999.github.io/Resume/Mikhail_Emad_Resume.pdf](https://mikhailemad999.github.io/Resume/Mikhail_Emad_Resume.pdf) | Official 1-page PDF with all 11 clickable hyperlinks |
+| **Interactive Portfolio** | [https://mikhailemad999.github.io/Resume/](https://mikhailemad999.github.io/Resume/) | Full engineering portfolio with projects, telemetry, and contact channels |
+| **GitHub Repository** | [https://github.com/mikhailemad999/Resume](https://github.com/mikhailemad999/Resume) | Public source code repository |
 
 ---
 
