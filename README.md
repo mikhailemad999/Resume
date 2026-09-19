@@ -1,7 +1,7 @@
 <div align="center">
 
 # ⚡ Mikhail Emad Alber
-### **Full-Stack Developer • Junior IT Support Engineer • AI & Data Specialist**
+### **Software Engineer • Full-Stack, Backend & Systems Architecture**
 **Computer Science & Engineering Graduate (EELU '25)**
 
 [![Portfolio Live](https://img.shields.io/badge/Portfolio-LIVE_PREVIEW-0ea5e9?style=for-the-badge&logo=googlechrome&logoColor=white)](https://mikhailemad999.github.io/Resume/)
@@ -20,7 +20,7 @@
   <img src="https://img.shields.io/badge/Status-Available_for_Immediate_Hire-success?style=flat-square" alt="Status">
   <img src="https://img.shields.io/badge/Relocation-Cairo_%2F_Remote-blue?style=flat-square" alt="Relocation">
   <img src="https://img.shields.io/badge/Projects-35%2B_Engineered-orange?style=flat-square" alt="Projects">
-  <img src="https://img.shields.io/badge/Diploma_Distinction-95%25-brightgreen?style=flat-square" alt="Diploma">
+  <img src="https://img.shields.io/badge/Specialization-Data_Science_&_AI-brightgreen?style=flat-square" alt="Specialization">
 </p>
 
 </div>
@@ -31,8 +31,10 @@
 
 | Destination | Public Live URL | Description |
 | :--- | :--- | :--- |
-| **Online Resume (Web ATS)** | [https://mikhailemad999.github.io/Resume/resume.html](https://mikhailemad999.github.io/Resume/resume.html) | Interactive, ATS-friendly resume with print & download toolbar |
-| **Direct PDF Resume** | [https://mikhailemad999.github.io/Resume/Mikhail_Emad_Resume.pdf](https://mikhailemad999.github.io/Resume/Mikhail_Emad_Resume.pdf) | Official 1-page PDF with all 11 clickable hyperlinks |
+| **Classic ATS Resume (1-Column)** | [https://mikhailemad999.github.io/Resume/resume.html](https://mikhailemad999.github.io/Resume/resume.html) | Classic single-column ATS powerhouse with print & download toolbar |
+| **Modern Resume (with Photo)** | [https://mikhailemad999.github.io/Resume/resume-modern.html](https://mikhailemad999.github.io/Resume/resume-modern.html) | Modern 2-column resume with professional portrait & skill badges |
+| **Direct PDF (Classic ATS)** | [https://mikhailemad999.github.io/Resume/Mikhail_Emad_Resume.pdf](https://mikhailemad999.github.io/Resume/Mikhail_Emad_Resume.pdf) | Official 1-page PDF optimized for automated ATS parsers |
+| **Direct PDF (Modern 2-Column)** | [https://mikhailemad999.github.io/Resume/Mikhail_Emad_Modern_Resume.pdf](https://mikhailemad999.github.io/Resume/Mikhail_Emad_Modern_Resume.pdf) | Official 1-page modern PDF with photo & interactive links |
 | **Interactive Portfolio** | [https://mikhailemad999.github.io/Resume/](https://mikhailemad999.github.io/Resume/) | Full engineering portfolio with projects, telemetry, and contact channels |
 | **GitHub Repository** | [https://github.com/mikhailemad999/Resume](https://github.com/mikhailemad999/Resume) | Public source code repository |
 
@@ -40,11 +42,11 @@
 
 ## 👨‍💻 Executive Summary
 
-Bilingual Computer Science and Engineering graduate with verified hands-on production experience spanning:
-- **Tier-1 / Tier-2 IT Support & Systems Engineering**: Investigating live client bugs, managing Ubuntu Linux production environments, DNS zone routing, cPanel, SiteGround hosting, and database troubleshooting at **Petra Software**.
+Bilingual Computer Science and Engineering professional with verified hands-on production experience spanning:
+- **Systems & Infrastructure Engineering**: Investigating live client bugs, managing Ubuntu Linux production environments, DNS zone routing, cPanel, SiteGround hosting, and database troubleshooting at **Petra Software**.
 - **Modern Full-Stack Engineering**: Delivering scalable RESTful architectures using **Django REST Framework**, **Python**, **React**, modern JavaScript (ES6+), and clean component patterns.
 - **Relational & Document Databases**: Designing ACID-compliant schemas, query optimization, indexing, and administration for PostgreSQL, MySQL, SQL Server, and MongoDB.
-- **Applied AI & Machine Learning**: 95% Top Distinction Diploma holder from **AMIT Learning** (Deep Learning, NLP, Computer Vision, CNNs, Transformers, Predictive Modeling).
+- **Applied AI & Machine Learning**: Data Science & AI Specialization from **AMIT Learning** (Deep Learning, NLP, Computer Vision, CNNs, Transformers, Predictive Modeling).
 
 ---
 
@@ -56,7 +58,7 @@ Bilingual Computer Science and Engineering graduate with verified hands-on produ
 | :--- | :--- |
 | **Languages** | Python, JavaScript (ES6+), TypeScript, SQL, HTML5, CSS3, Bash Shell |
 | **Backend & APIs** | Django, Django REST Framework (DRF), RESTful APIs, JWT Authentication, Flask, Node.js, WebSockets |
-| **Frontend** | React.js, Responsive UI/UX, Bootstrap, jQuery, WebGL / Three.js, CSS 3D Transforms |
+| **Frontend** | React.js, Responsive UI/UX, Bootstrap, Tailwind CSS, WebGL / Three.js, CSS 3D Transforms |
 | **Databases** | PostgreSQL, MySQL, Microsoft SQL Server, MongoDB, Redis, pgAdmin |
 | **Cloud & Systems** | Ubuntu / Linux Server (22.04 LTS), cPanel, SiteGround Hosting, Nginx, Apache, DNS / SSL Config |
 | **AI / Data Science** | TensorFlow, Keras, PyTorch, CNNs, Transformers, OpenCV, Scikit-Learn, Pandas, NumPy, ETL Pipelines |
@@ -86,7 +88,7 @@ All project titles contain direct links to their repositories:
 
 ## 💼 Professional Experience
 
-### **Junior IT Support Engineer** — *Petra Software*
+### **Systems & Software Support Engineer** — *Petra Software*
 *Assiut, Egypt | 2025 – Present*
 - Deliver technical support for enterprise software solutions and end-user customer environments.
 - Troubleshoot system, connectivity, API, and database issues; coordinate bug fixes and patch deployments with developers.
@@ -97,9 +99,9 @@ All project titles contain direct links to their repositories:
 
 ## 🎓 Education & Certifications
 
-- **B.Sc. in Computer Science and Engineering** — *Egyptian E-Learning University (EELU)* (Graduated 2025)
-- **Data Science and AI Diploma (243 Hours)** — *AMIT Learning* (2026) • **Grade: 95% Top Distinction**
-- **Full-Stack Web Development Diploma (220 Hours)** — *AMIT Learning* (2024 – 2025) • **Grade: 79%**
+- **B.Sc. in Computer Science and Engineering** — *Egyptian E-Learning University (EELU)* (2021 – 2025)
+- **Data Science and AI Specialization** — *AMIT Learning* (2026)
+- **Full-Stack Web Development Specialization** — *AMIT Learning* (2024 – 2025)
 - **Huawei AI Training Certification** — *Huawei Technologies* (2022)
 
 ---

@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mikhail Emad Alber — Professional Resume</title>
+  <title>Mikhail Emad Alber — Software Engineer Resume</title>
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap');
 
@@ -17,7 +17,6 @@
       --border: #cbd5e1;
       --border-dark: #334155;
       --bg: #ffffff;
-      --tag-bg: #f1f5f9;
     }
 
     * {
@@ -28,15 +27,15 @@
 
     @page {
       size: A4 portrait;
-      margin: 8mm 10mm 8mm 10mm;
+      margin: 6.5mm 10mm 6.5mm 10mm;
     }
 
     body {
-      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
       color: var(--text);
       background-color: var(--bg);
       line-height: 1.35;
-      font-size: 8.7pt;
+      font-size: 8.5pt;
       -webkit-print-color-adjust: exact;
       print-color-adjust: exact;
     }
@@ -44,32 +43,32 @@
     .resume-container {
       max-width: 210mm;
       margin: 0 auto;
-      padding: 2mm 0;
+      padding: 0;
     }
 
     /* Header */
     header {
       text-align: center;
       border-bottom: 2px solid var(--primary);
-      padding-bottom: 8px;
-      margin-bottom: 8px;
+      padding-bottom: 6px;
+      margin-bottom: 7px;
     }
 
     .name-title h1 {
-      font-size: 20pt;
+      font-size: 19.5pt;
       font-weight: 800;
-      letter-spacing: -0.3px;
+      letter-spacing: -0.2px;
       color: var(--primary);
       line-height: 1.1;
       text-transform: uppercase;
     }
 
     .name-title .subtitle {
-      font-size: 9.8pt;
-      font-weight: 600;
+      font-size: 9.6pt;
+      font-weight: 700;
       color: var(--accent);
       margin-top: 2px;
-      letter-spacing: 0.2px;
+      letter-spacing: 0.1px;
     }
 
     .contact-line {
@@ -78,15 +77,15 @@
       align-items: center;
       flex-wrap: wrap;
       gap: 12px;
-      margin-top: 5px;
+      margin-top: 4px;
       font-size: 8.3pt;
       color: var(--text-muted);
     }
 
     .contact-item a {
-      color: var(--text);
+      color: var(--accent);
       text-decoration: none;
-      font-weight: 600;
+      font-weight: 700;
       transition: color 0.15s ease;
     }
 
@@ -97,30 +96,47 @@
 
     .separator {
       color: var(--border);
+      font-weight: 400;
     }
 
     /* Sections */
     section {
-      margin-bottom: 7px;
+      margin-bottom: 6px;
     }
 
     .section-title {
-      font-size: 9.3pt;
+      font-size: 9.2pt;
       font-weight: 800;
       text-transform: uppercase;
       letter-spacing: 0.8px;
       color: var(--primary);
       border-bottom: 1.2px solid var(--border-dark);
-      padding-bottom: 2px;
-      margin-bottom: 4px;
+      padding-bottom: 1.5px;
+      margin-bottom: 3.5px;
     }
 
     /* Summary */
     .summary-text {
       color: var(--text-muted);
-      font-size: 8.4pt;
+      font-size: 8.3pt;
       line-height: 1.4;
       text-align: justify;
+    }
+
+    /* Skills */
+    .skills-block {
+      font-size: 8.2pt;
+      line-height: 1.4;
+      color: var(--text-muted);
+    }
+
+    .skills-block > div {
+      margin-bottom: 1.5px;
+    }
+
+    .skill-cat {
+      font-weight: 700;
+      color: var(--primary);
     }
 
     /* Experience */
@@ -150,10 +166,10 @@
 
     .bullets {
       list-style-type: square;
-      margin-left: 14px;
+      margin-left: 15px;
       color: var(--text-muted);
-      font-size: 8.3pt;
-      line-height: 1.35;
+      font-size: 8.2pt;
+      line-height: 1.36;
     }
 
     .bullets li {
@@ -162,14 +178,15 @@
 
     /* Projects */
     .project-entry {
-      margin-bottom: 4px;
+      margin-bottom: 5px;
     }
 
     .project-header {
       display: flex;
       justify-content: space-between;
       align-items: baseline;
-      font-size: 8.6pt;
+      font-size: 8.7pt;
+      margin-bottom: 1.5px;
     }
 
     .project-title-link {
@@ -184,28 +201,9 @@
     }
 
     .project-tech {
-      font-size: 7.8pt;
+      font-size: 7.9pt;
       font-weight: 600;
       color: var(--accent);
-    }
-
-    .project-desc {
-      font-size: 8.1pt;
-      color: var(--text-muted);
-      line-height: 1.3;
-      margin-top: 1px;
-    }
-
-    /* Skills */
-    .skills-block {
-      font-size: 8.2pt;
-      line-height: 1.4;
-      color: var(--text-muted);
-    }
-
-    .skill-cat {
-      font-weight: 700;
-      color: var(--primary);
     }
 
     /* Education & Certs */
@@ -228,25 +226,8 @@
     }
 
     .date-span {
-      font-size: 8pt;
+      font-size: 8.1pt;
       color: var(--text-dim);
-      font-weight: 500;
-    }
-
-    /* Footer */
-    .footer-bar {
-      margin-top: 6px;
-      padding-top: 4px;
-      border-top: 1px dashed var(--border);
-      display: flex;
-      justify-content: space-between;
-      font-size: 7.5pt;
-      color: var(--text-dim);
-    }
-
-    .footer-bar a {
-      color: var(--accent);
-      text-decoration: none;
       font-weight: 600;
     }
 
@@ -372,10 +353,10 @@
       .job-meta {
         font-size: 7.5pt;
       }
-      .cert-entry {
+      .cert-entry, .edu-entry {
         flex-direction: column;
         align-items: flex-start;
-        gap: 2px;
+        gap: 1px;
       }
       .date-span {
         font-size: 7.5pt;
@@ -409,6 +390,10 @@
         <svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor"><path d="M20 11H7.83l5.59-5.59L12 4l-8 8 8 8 1.41-1.41L7.83 13H20v-2z"/></svg>
         Back to Portfolio
       </a>
+      <a href="resume-modern.html" class="toolbar-btn btn-back">
+        <svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor"><path d="M4 6h16v2H4zm0 5h16v2H4zm0 5h16v2H4z"/></svg>
+        View Modern Template (with Photo)
+      </a>
     </div>
     <div class="toolbar-right">
       <button onclick="window.print()" class="toolbar-btn btn-print" title="Print or save as PDF via browser">
@@ -417,7 +402,7 @@
       </button>
       <a href="Mikhail_Emad_Resume.pdf" download="Mikhail_Emad_Resume.pdf" class="toolbar-btn btn-download">
         <svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor"><path d="M19.35 10.04C18.67 6.59 15.64 4 12 4 9.11 4 6.6 5.64 5.35 8.04 2.34 8.36 0 10.91 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96zM17 13l-5 5-5-5h3V9h4v4h3z"/></svg>
-        Download Official PDF
+        Download ATS PDF
       </a>
     </div>
   </div>
@@ -427,17 +412,17 @@
     <header>
       <div class="name-title">
         <h1>MIKHAIL EMAD ALBER</h1>
-        <div class="subtitle">Computer Science & Engineering Graduate | Full-Stack Developer | IT Support & AI</div>
+        <div class="subtitle">Software Engineer | Full-Stack &amp; Systems Architecture</div>
       </div>
       <div class="contact-line">
-        <span class="contact-item">New Cairo / Assiut, Egypt</span>
+        <span class="contact-item">Cairo, Egypt</span>
         <span class="separator">|</span>
         <span class="contact-item">
-          <a href="tel:+201289981076">(+20) 128 998 1076</a>
+          <a href="tel:+201289981076" style="color: inherit; font-weight: 500;">(+20) 128 998 1076</a>
         </span>
         <span class="separator">|</span>
         <span class="contact-item">
-          <a href="mailto:Mikhailemad999@gmail.com">Mikhailemad999@gmail.com</a>
+          <a href="mailto:Mikhailemad999@gmail.com" style="color: inherit; font-weight: 500;">Mikhailemad999@gmail.com</a>
         </span>
         <span class="separator">|</span>
         <span class="contact-item">
@@ -454,25 +439,99 @@
     <section>
       <div class="section-title">Professional Summary</div>
       <p class="summary-text">
-        Computer Science and Engineering graduate with hands-on experience across IT support, production web deployment, full-stack development, and AI/data projects, with <strong>35+ web projects built</strong> across full-stack and software workflows. Experienced supporting business software and customers, troubleshooting application and network issues, working with Ubuntu servers and hosting environments, and building REST-based web applications using React, Django, Python, SQL, and modern deployment workflows.
+        Results-oriented Software Engineer with extensive experience architecting and deploying scalable web services, high-throughput REST APIs, and automated data pipelines. Delivered 40+ engineered applications leveraging Python (Django, Flask), JavaScript (React, Node.js), relational &amp; NoSQL databases (PostgreSQL, SQL Server, MongoDB), and Linux server infrastructure. Proven expertise in microservices architecture, JWT/RBAC security, real-time WebSockets, database query optimization, and production environments maintaining high availability.
       </p>
     </section>
 
-    <!-- Professional Experience -->
+    <!-- Technical Skills -->
     <section>
-      <div class="section-title">Professional Experience</div>
+      <div class="section-title">Technical Skills</div>
+      <div class="skills-block">
+        <div><span class="skill-cat">Languages:</span> Python, JavaScript (ES6+), TypeScript, SQL (PostgreSQL, MySQL), HTML5, CSS3, Bash Shell</div>
+        <div><span class="skill-cat">Backend &amp; APIs:</span> Django, Django REST Framework (DRF), Flask, Node.js, Express, RESTful APIs, WebSockets, JWT Authentication, Microservices</div>
+        <div><span class="skill-cat">Frontend &amp; UI:</span> React.js, Next.js, Redux, State Management, Responsive Web Design, Bootstrap, Tailwind CSS, Three.js / WebGL</div>
+        <div><span class="skill-cat">Databases &amp; Storage:</span> PostgreSQL, Microsoft SQL Server, MySQL, MongoDB, Redis, Schema Design, Indexing, Query Optimization</div>
+        <div><span class="skill-cat">DevOps &amp; Infrastructure:</span> Linux / Ubuntu Server Administration, Docker, Git, GitHub, CI/CD, Nginx, cPanel, SiteGround Hosting, Reverse Proxy</div>
+        <div><span class="skill-cat">AI &amp; Data Engineering:</span> ETL Pipelines, Data Analysis, Machine Learning, Deep Learning, OpenCV, TensorFlow, Keras, CNNs, NLP, Transformers, Pandas</div>
+        <div><span class="skill-cat">Methodologies &amp; Core:</span> System Design, Object-Oriented Programming (OOP), Data Structures &amp; Algorithms, Agile / Scrum, Root-Cause Analysis</div>
+      </div>
+    </section>
+
+    <!-- Work Experience -->
+    <section>
+      <div class="section-title">Work Experience</div>
       <div class="job-header">
         <div>
-          <span class="job-title">Junior IT Support Engineer</span> | <span class="job-company">Petra Software</span>
+          <span class="job-title">Systems &amp; Software Support Engineer</span> | <span class="job-company">Petra Software</span>
         </div>
-        <div class="job-meta">2025 – Present | Assiut, Egypt</div>
+        <div class="job-meta">2025 - Present | Cairo, Egypt</div>
       </div>
       <ul class="bullets">
-        <li>Provide technical support for company software and customer environments; investigate application, system, connectivity, and configuration issues and coordinate fixes with developers.</li>
-        <li>Work with Ubuntu servers and production hosting environments, including cPanel and SiteGround; support website configuration, domains, databases, deployments, and service availability.</li>
-        <li>Deploy and maintain real-world web projects on live servers, validate releases, troubleshoot post-deployment issues, and document recurring solutions.</li>
-        <li>Assist with customer onboarding, software installation/configuration, user guidance, issue reporting, and day-to-day operational support.</li>
+        <li>Administer and maintain production Ubuntu Linux server environments across SiteGround and cPanel, sustaining high application uptime and reliability for enterprise client portals.</li>
+        <li>Deploy and configure full-stack web applications on live cloud instances, implementing automated verification checks, SSL/DNS configurations, and continuous release rollouts.</li>
+        <li>Isolate and resolve tier-2/3 system defects, database deadlocks, and API bottlenecks, coordinating with core development teams to accelerate issue resolution.</li>
+        <li>Optimize SQL database configurations, query performance, and server resource utilization, establishing standard operating procedures and technical troubleshooting runbooks.</li>
       </ul>
+    </section>
+
+    <!-- Technical Projects -->
+    <section>
+      <div class="section-title">Technical Projects</div>
+
+      <!-- Project 1 -->
+      <div class="project-entry">
+        <div class="project-header">
+          <a class="project-title-link" href="https://github.com/mikhailemad999/RestaurantOS" target="_blank" rel="noopener noreferrer">
+            Enterprise Restaurant POS &amp; Operations Platform
+          </a>
+          <span class="project-tech">React | Django REST | PostgreSQL | WebSockets | JWT</span>
+        </div>
+        <ul class="bullets">
+          <li>Engineered high-concurrency order dispatch utilizing real-time WebSockets, decreasing order transmission latency to under 250ms across 50+ concurrent POS terminals.</li>
+          <li>Automated multi-station kitchen display routing and network thermal printing across 3 prep stations, reducing order fulfillment transit times by 45%.</li>
+        </ul>
+      </div>
+
+      <!-- Project 2 -->
+      <div class="project-entry">
+        <div class="project-header">
+          <a class="project-title-link" href="https://github.com/mikhailemad999" target="_blank" rel="noopener noreferrer">
+            Hospital Clinical &amp; Operations Management System
+          </a>
+          <span class="project-tech">React | Django REST | PostgreSQL | RBAC Security</span>
+        </div>
+        <ul class="bullets">
+          <li>Architected enterprise healthcare suite coordinating electronic health records (EHR), outpatient scheduling, and financial ledgers across 8 hospital departments.</li>
+          <li>Automated real-time pharmacy inventory deduction upon prescription issuance, eliminating dispensing errors and accelerating cross-department billing audits by 50%.</li>
+        </ul>
+      </div>
+
+      <!-- Project 3 -->
+      <div class="project-entry">
+        <div class="project-header">
+          <a class="project-title-link" href="https://github.com/mikhailemad999" target="_blank" rel="noopener noreferrer">
+            Retail Data Warehouse &amp; Analytics Platform
+          </a>
+          <span class="project-tech">Python | SQL Server | MongoDB | Flask | Pandas | ML</span>
+        </div>
+        <ul class="bullets">
+          <li>Constructed an end-to-end ETL data pipeline ingesting 100,000+ relational transactions from SQL Server into MongoDB, exposing aggregated analytics via sub-100ms Flask APIs.</li>
+          <li>Integrated predictive machine learning algorithms for sales analysis and inventory demand forecasting, reducing stockout risks by 28% and optimizing supply chain reorders.</li>
+        </ul>
+      </div>
+
+      <!-- Project 4 -->
+      <div class="project-entry">
+        <div class="project-header">
+          <a class="project-title-link" href="https://github.com/mikhailemad999/Face-Mask-Emotion-detection" target="_blank" rel="noopener noreferrer">
+            Real-Time Edge Computer Vision &amp; Detection Engine
+          </a>
+          <span class="project-tech">Python | OpenCV | TensorFlow / Keras | MobileNet CNNs</span>
+        </div>
+        <ul class="bullets">
+          <li>Built an edge-optimized computer vision inference pipeline simultaneously evaluating mask compliance and classifying multi-class emotional states on live video streams with 94%+ accuracy at 30+ FPS.</li>
+        </ul>
+      </div>
     </section>
 
     <!-- Education -->
@@ -480,127 +539,30 @@
       <div class="section-title">Education</div>
       <div class="edu-entry">
         <div>
-          <span class="edu-degree">Bachelor of Science in Computer Science and Engineering</span> | <span class="edu-inst">The Egyptian E-Learning University (EELU)</span> - Assiut Branch
+          <span class="edu-degree">Bachelor of Science in Computer Science and Engineering</span> | <span class="edu-inst">The Egyptian E-Learning University (EELU)</span>
         </div>
-        <div class="date-span">Graduated 2025</div>
+        <div class="date-span">Expected 2025</div>
       </div>
     </section>
 
-    <!-- Selected Projects -->
+    <!-- Certifications -->
     <section>
-      <div class="section-title">Selected Projects (Direct GitHub Links)</div>
-
-      <!-- Project 1 -->
-      <div class="project-entry">
-        <div class="project-header">
-          <a class="project-title-link" href="https://github.com/mikhailemad999" target="_blank" rel="noopener noreferrer">
-            Retail Data Warehouse & Analytics Platform
-          </a>
-          <span class="project-tech">Python | SQL Server | MongoDB | Flask | Pandas | ML</span>
-        </div>
-        <div class="project-desc">
-          Built an ETL-oriented analytics pipeline moving normalized retail data from SQL Server into a MongoDB warehouse, exposed through a Flask API for data analytics and predictive machine-learning workflows.
-        </div>
-      </div>
-
-      <!-- Project 2 -->
-      <div class="project-entry">
-        <div class="project-header">
-          <a class="project-title-link" href="https://github.com/mikhailemad999/RestaurantOS" target="_blank" rel="noopener noreferrer">
-            Restaurant POS & Operations System
-          </a>
-          <span class="project-tech">React | Django REST | PostgreSQL | JWT | WebSockets</span>
-        </div>
-        <div class="project-desc">
-          Designed a production-oriented restaurant platform covering dine-in/takeaway/delivery orders, floor table maps, cashier/manager/waiter roles, kitchen screens, multi-station printer routing, inventory, and bilingual operation.
-        </div>
-      </div>
-
-      <!-- Project 3 -->
-      <div class="project-entry">
-        <div class="project-header">
-          <a class="project-title-link" href="https://github.com/mikhailemad999" target="_blank" rel="noopener noreferrer">
-            Hospital Management & Operations System
-          </a>
-          <span class="project-tech">React | Django REST | PostgreSQL | RBAC</span>
-        </div>
-        <div class="project-desc">
-          Designed an integrated hospital operations system spanning patient appointments, emergency care, pharmacy inventory with automatic stock deduction, surgery costing, doctor profits, nursing tracking, and department reporting.
-        </div>
-      </div>
-
-      <!-- Project 4 -->
-      <div class="project-entry">
-        <div class="project-header">
-          <a class="project-title-link" href="https://github.com/mikhailemad999/EstatePro" target="_blank" rel="noopener noreferrer">
-            Real Estate Management Platform
-          </a>
-          <span class="project-tech">React | Django REST | PostgreSQL | JavaScript</span>
-        </div>
-        <div class="project-desc">
-          Designed a property marketplace with listings, advanced search filters, map integration, agent dashboards, viewing appointments, booking management, mortgage calculators, and analytics.
-        </div>
-      </div>
-
-      <!-- Project 5 -->
-      <div class="project-entry">
-        <div class="project-header">
-          <a class="project-title-link" href="https://github.com/mikhailemad999/Face-Mask-Emotion-detection" target="_blank" rel="noopener noreferrer">
-            Face Mask & Emotion Detection System
-          </a>
-          <span class="project-tech">Python | OpenCV | TensorFlow/Keras | CNNs</span>
-        </div>
-        <div class="project-desc">
-          Built a real-time computer vision system simultaneously detecting face mask compliance and classifying human emotional states from live video streams with high edge inference efficiency.
-        </div>
-      </div>
-
-      <!-- Project 6 -->
-      <div class="project-entry">
-        <div class="project-header">
-          <a class="project-title-link" href="https://github.com/mikhailemad999/Machine-Translator-from-English-to-Arabic" target="_blank" rel="noopener noreferrer">
-            Machine Translator (English to Arabic)
-          </a>
-          <span class="project-tech">Python | NLP | Seq2Seq | Transformers</span>
-        </div>
-        <div class="project-desc">
-          Developed an attention-based sequence-to-sequence translation model converting English text to Arabic with contextual grammar and syntax preservation.
-        </div>
-      </div>
-    </section>
-
-    <!-- Technical Skills -->
-    <section>
-      <div class="section-title">Technical Skills</div>
-      <div class="skills-block">
-        <div><span class="skill-cat">Languages:</span> Python, JavaScript, HTML5, CSS3, SQL</div>
-        <div><span class="skill-cat">Frontend:</span> React, Bootstrap, jQuery, responsive UI development, Three.js / WebGL, CSS 3D Transforms</div>
-        <div><span class="skill-cat">Backend:</span> Django, Django REST Framework, REST APIs, JWT authentication, Flask, Node.js</div>
-        <div><span class="skill-cat">Databases:</span> SQL Server, MySQL, PostgreSQL, MongoDB, pgAdmin, Redis</div>
-        <div><span class="skill-cat">Dev & Deployment:</span> Git, GitHub, Ubuntu/Linux CLI, cPanel, SiteGround, live-server deployment, Docker</div>
-        <div><span class="skill-cat">AI / Data:</span> Data Analysis, Machine Learning, Deep Learning, NLP, Computer Vision, Data Visualization, ETL</div>
-        <div><span class="skill-cat">Core Concepts:</span> OOP, database design, API integration, authentication, troubleshooting, production support</div>
-      </div>
-    </section>
-
-    <!-- Certifications & Training -->
-    <section>
-      <div class="section-title">Certifications & Training</div>
+      <div class="section-title">Certifications</div>
       <div class="cert-entry">
         <div>
-          <span class="cert-name">Data Science and AI Diploma</span> — <span class="cert-inst">AMIT Learning</span> (243 hours, Grade: <strong>95% Top Distinction</strong>)
+          <span class="cert-name">Data Science &amp; Artificial Intelligence Specialization</span> | <span class="cert-inst">AMIT Learning</span>
         </div>
         <div class="date-span">2026</div>
       </div>
       <div class="cert-entry">
         <div>
-          <span class="cert-name">Full-Stack Web Development Diploma</span> — <span class="cert-inst">AMIT Learning</span> (220 hours, Grade: <strong>79%</strong>)
+          <span class="cert-name">Full-Stack Web Development Specialization</span> | <span class="cert-inst">AMIT Learning</span>
         </div>
-        <div class="date-span">2024 – 2025</div>
+        <div class="date-span">2024 - 2025</div>
       </div>
       <div class="cert-entry">
         <div>
-          <span class="cert-name">Huawei AI Training</span> — <span class="cert-inst">Huawei Technologies</span>
+          <span class="cert-name">Artificial Intelligence &amp; Cloud Computing Training</span> | <span class="cert-inst">Huawei Technologies</span>
         </div>
         <div class="date-span">2022</div>
       </div>
@@ -610,15 +572,9 @@
     <section>
       <div class="section-title">Languages</div>
       <div style="font-size: 8.3pt; color: var(--text-muted);">
-        <strong>Arabic:</strong> Native &nbsp;&nbsp;|&nbsp;&nbsp; <strong>English:</strong> Upper-Intermediate (B2 Professional)
+        <strong>English:</strong> Professional Working Proficiency (B2) | <strong>Arabic:</strong> Native Proficiency
       </div>
     </section>
-
-    <!-- Footer -->
-    <div class="footer-bar">
-      <span>All links in this resume are active and clickable. Click any project name or profile to visit.</span>
-      <span>Profile: <a href="https://github.com/mikhailemad999" target="_blank" rel="noopener noreferrer">github.com/mikhailemad999</a></span>
-    </div>
   </div>
 </body>
 </html>
