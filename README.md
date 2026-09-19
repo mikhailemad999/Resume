@@ -11,7 +11,7 @@
 [![GitHub](https://img.shields.io/badge/GitHub-mikhailemad999-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/mikhailemad999)
 
 <p align="center">
-  <strong>📍 Cairo / Assiut, Egypt</strong> &nbsp;•&nbsp;
+  <strong>📍 Cairo, Egypt</strong> &nbsp;•&nbsp;
   <strong>📞 (+20) 128 998 1076</strong> &nbsp;•&nbsp;
   <strong>✉️ <a href="mailto:Mikhailemad999@gmail.com">Mikhailemad999@gmail.com</a></strong>
 </p>
@@ -19,7 +19,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Status-Available_for_Immediate_Hire-success?style=flat-square" alt="Status">
   <img src="https://img.shields.io/badge/Relocation-Cairo_%2F_Remote-blue?style=flat-square" alt="Relocation">
-  <img src="https://img.shields.io/badge/Projects-35%2B_Engineered-orange?style=flat-square" alt="Projects">
+  <img src="https://img.shields.io/badge/Projects-40%2B_Engineered-orange?style=flat-square" alt="Projects">
   <img src="https://img.shields.io/badge/Specialization-Data_Science_&_AI-brightgreen?style=flat-square" alt="Specialization">
 </p>
 
@@ -89,7 +89,7 @@ All project titles contain direct links to their repositories:
 ## 💼 Professional Experience
 
 ### **Systems & Software Support Engineer** — *Petra Software*
-*Assiut, Egypt | 2025 – Present*
+*Cairo, Egypt | 2025 – Present*
 - Deliver technical support for enterprise software solutions and end-user customer environments.
 - Troubleshoot system, connectivity, API, and database issues; coordinate bug fixes and patch deployments with developers.
 - Administer Ubuntu Linux production servers and hosting providers (**cPanel**, **SiteGround**); maintain SSL certificates, DNS records, and domain configurations.
